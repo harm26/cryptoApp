@@ -1,7 +1,9 @@
 {
   "expo": {
-    "name": "cripto-app",
-    "slug": "cripto-app",
+    "name": "crypto app",
+    "slug": "crypto-app",
+    "privacy": "public",
+    "description": "Crypto app, from api coingecko",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,9 +16,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
